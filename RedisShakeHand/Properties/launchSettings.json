@@ -12,9 +12,9 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "swagger"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "RedisShakeHand": {
