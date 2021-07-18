@@ -46,6 +46,13 @@ namespace RedisShakeHand
                     c.IncludeXmlComments(xmlFile, true);
                 }
             });
+
+            //redis
+            services.AddRedisCache();
+
+            services.AddScoped<IWeatherForecastService, WeatherForecastService>();
+            services.AddScoped<ICacheService, CacheService>();
+            services.AddScoped<IRedisHashService, RedisHashService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
