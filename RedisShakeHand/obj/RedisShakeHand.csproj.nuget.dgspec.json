@@ -39,6 +39,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MessagePack": {
+              "target": "Package",
+              "version": "[2.2.113, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.62, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
