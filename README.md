@@ -2,16 +2,16 @@
 Redis with .Net Core
 
 資料可以參考本人筆記
-[Redis基本指令與安裝](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/BJeNgZv2d) 
-[Redis進階用法](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/H15RTaMTu)
-[Redis管理與持久化](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/SyXibtKad)
-[.Net Core的Redis](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/SJrrmI6p_)
+- [Redis基本指令與安裝](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/BJeNgZv2d) 
+- [Redis進階用法](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/H15RTaMTu)
+- [Redis管理與持久化](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/SyXibtKad)
+- [.Net Core的Redis](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/SJrrmI6p_)
 
 ### 安裝套件
-`Install-Package MessagePack -Version 2.2.113`
-`Install-Package Microsoft.Extensions.Caching.StackExchangeRedis -Version 6.0.0-preview.6.21355.2`
-`Install-Package StackExchange.Redis -Version 2.2.62`
-`Install-Package Swashbuckle.AspNetCore -Version 6.1.4`(swagger使用)
+- `Install-Package MessagePack -Version 2.2.113`
+- `Install-Package Microsoft.Extensions.Caching.StackExchangeRedis -Version 6.0.0-preview.6.21355.2`
+- `Install-Package StackExchange.Redis -Version 2.2.62`
+- `Install-Package Swashbuckle.AspNetCore -Version 6.1.4`(swagger使用)
 
 
 ### IDistributedCache
