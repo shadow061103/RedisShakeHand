@@ -1,5 +1,4 @@
 # RedisShakeHand
-Redis with .Net Core
 
 資料可以參考本人筆記
 - [Redis基本指令與安裝](https://hackmd.io/@gs9TPhYbSPCyczQit5ucew/BJeNgZv2d) 
