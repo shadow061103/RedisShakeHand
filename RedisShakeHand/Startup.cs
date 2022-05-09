@@ -56,6 +56,7 @@ namespace RedisShakeHand
             services.AddScoped<IWeatherForecastService, WeatherForecastService>();
             services.AddScoped<ICacheService, CacheService>();
             services.AddScoped<IRedisHashService, RedisHashService>();
+            services.AddScoped<ISetService, SetService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

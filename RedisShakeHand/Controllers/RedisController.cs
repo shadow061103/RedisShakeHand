@@ -59,7 +59,7 @@ namespace RedisShakeHand.Controllers
 
             //GetDatabase可以設定是否要用非同步模式
             var db = redis.GetDatabase();
-            db.StringSet("foo3", 168);
+            db.StringSet("foo3", 168, TimeSpan.FromSeconds(10), When.NotExists, CommandFlags.DemandMaster);
 
             return Ok();
         }
